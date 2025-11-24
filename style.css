@@ -35,14 +35,20 @@ h2 {
 
 .caixa-jogo {
   display: flex;
-  flex-direction: row;
+  width: 50%;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .caixa-jogo>input {
   text-align: center;
+}
+
+.caixa-jogo>label {
+  font-size: 50px;
 }
 
 #chutar {
@@ -51,6 +57,7 @@ h2 {
   border-radius: 5px;
   width: 200px;
   background-color: rgb(241, 143, 143);
+  text-transform: uppercase;
 }
 
 #chutar:active {
